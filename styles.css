@@ -1,0 +1,35 @@
+body{
+
+background-image: url(./images/background.jpg);
+background-color: rgba(255, 255, 255, 0.3)
+;
+background-size: cover;
+
+background-repeat: no-repeat;
+display: flex;
+z-index: -1;
+opacity: 1;
+align-items: center;
+justify-content: center;
+
+}
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1, p{
+    color: white;
+    text-align: center;
+}
+
+#survey-form{
+    color: white;
+    background-color: rgba(3, 3, 44, 0.726);
+    align-items: center;
+    width: 50%;
+
+    /* margin-right: 30%;
+    margin-left: 30%; */
+}

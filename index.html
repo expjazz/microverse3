@@ -5,51 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form action="" id="survey-form">
+    <main>
         <div>
-            <label for="name" id="name-label">Name</label>
-            <br>
-            <input type="text" id="name" placeholder="Enter your name">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form action="" id="survey-form">
+                <div>
+                    <label for="name" id="name-label">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter your name">
 
-        </div>
-        <div>
-            <label for="email" id="email-label">Email</label>
-            <br>
-            <input type="email" id="email" placeholder="Enter your Email" required>
-        </div>
-        <div>
-            <label for="number" id="number-label">Name</label>
-            <br>
-            <input type="number" id="number" min="10" max="100" placeholder="Enter your age">
+                </div>
+                <div>
+                    <label for="email" id="email-label">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your Email" required>
+                </div>
+                <div>
+                    <label for="number" id="number-label">Name</label>
+                    <br>
+                    <input type="number" id="number" min="10" max="100" placeholder="Enter your age">
 
-        </div>
-        <div>
-            <label for="select">Which option best describes your current role?</label>
-            <select name="option" id="dropdown">
-                <option value="null" selected>Select current role</option>
-                <option value="student">Student</option>
-                <option value="full time job">Full time job</option>
-                <option value="full time learner">Full time Learner</option>
-                <option value="prefer not to say">Prefer not to say</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-<div>
-    <label for="radio-btn">Would you recommend freeCodeCamp to a friend?</label>
-    <label for="Defenily">Defenily</label>
-    <input type="radio" name="radio" value="Defenily" id="Defenily">
-    <label for="Maybe">Maybe</label>
-    <input type="radio" name="radio" value="Maybe" id="Maybe">
-    <label for="Not_sure">Not sure</label>
-    <input type="radio" name="radio" value="Not sure" id="Not_sure">
-</div>
-    </form>
+                </div>
+                <div>
+                    <label for="select">Which option best describes your current role?</label>
+                    <select name="option" id="dropdown">
+                        <option value="null" selected>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="full time job">Full time job</option>
+                        <option value="full time learner">Full time Learner</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="radio-btn">Would you recommend freeCodeCamp to a friend?</label>
+                    <label for="Defenily">Defenily</label>
+                    <input type="radio" name="radio" value="Defenily" id="Defenily">
+                    <label for="Maybe">Maybe</label>
+                    <input type="radio" name="radio" value="Maybe" id="Maybe">
+                    <label for="Not_sure">Not sure</label>
+                    <input type="radio" name="radio" value="Not sure" id="Not_sure">
+                </div>
+                <div>
+                    <label for="Front-end Projects">Front-end Projects</label>
+                    <input type="checkbox" id="Front-end Projects" value="Front-end Projects">
 
+                    <label for="Back-end Projects">Back-end Projects</label>
+                    <input type="checkbox" id="Back-end Projects" value="Back-end Projects">
+
+                    <label for="Data Visualization">Data Visualization</label>
+                    <input type="checkbox" id="Data Visualization" value="Data Visualization">
+
+                    <label for="Challenges">Challenges</label>
+                    <input type="checkbox" id="Challenges" value="Challenges">
+
+                    <label for="Open Source Community">Open Source Community</label>
+                    <input type="checkbox" id="Open Source Community" value="Open Source Community">
+
+                    <label for="Gitter help rooms">Gitter help rooms</label>
+                    <input type="checkbox" id="Gitter help rooms" value="Gitter help rooms">
+
+                    <label for="Videos">Videos</label>
+                    <input type="checkbox" id="Videos" value="Videos">
+
+                    <label for="City Meetups">City Meetups</label>
+                    <input type="checkbox" id="City Meetups" value="City Meetups">
+
+                    <label for="Wiki">Wiki</label>
+                    <input type="checkbox" id="Wiki" value="Wiki">
+
+                    <label for="Forum">Forum</label>
+                    <input type="checkbox" id="Forum" value="Forum">
+
+                    <label for="Additional Courses">Additional Courses</label>
+                    <input type="checkbox" id="Additional Courses" value="Additional Courses">
+                </div>
+                <div>
+                    <label for="textarea">Any comments or suggestions?</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="Enter your comment here..."></textarea>
+
+                </div>
+
+                <div>
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+        </div>
+        </form>
+    </main>
 </body>
 
 </html>
